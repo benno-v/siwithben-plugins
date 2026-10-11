@@ -17,6 +17,12 @@ All notable changes, per plugin. Versions follow [semantic versioning](https://s
 ### 1.1.0 (2026-10-11)
 - Listed in this marketplace via a git URL source. Release notes live in that repo's CHANGELOG (PDF output, milestones on the Gantt, robust HTML preview).
 
+## kits/grok-bot-starter-skills
+
+### 1.0.0 (2026-10-11)
+- First release: inbox-cleanup, follow-up-tracker and red-team-review skills (SKILL.md, approval-first, paste-ready routine prompts with suggested schedules), two-jobs-at-once example, sample data, dry-run evidence and downloadable zip.
+- CI: scripts/check_kits.py now validates skill frontmatter (name matches folder, description says when to use it) and that each skill states an approval boundary.
+
 ## kits/chatgpt-pm-prompt-pack
 
 ### 1.0.0 (2026-10-11)

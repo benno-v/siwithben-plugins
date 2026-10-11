@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Checks for non-Claude kits: README/LICENSE present, zip in sync, ChatGPT GPT limits respected."""
-import pathlib, sys, zipfile
+import pathlib, re, sys, zipfile
 root = pathlib.Path(__file__).resolve().parent.parent / "kits"
 errors = []
 for kit in sorted(p for p in root.iterdir() if p.is_dir()):
@@ -26,5 +26,20 @@ for kit in sorted(p for p in root.iterdir() if p.is_dir()):
         s = kit / "gpt/conversation-starters.txt"
         if s.exists() and len([l for l in s.read_text().splitlines() if l.strip()]) > 4:
             errors.append(f"{kit.name}: more than 4 conversation starters")
+    for sk in sorted(kit.glob("skills/*/SKILL.md")):
+        t = sk.read_text(encoding="utf-8")
+        fm = re.match(r"---\n(.*?)\n---\n", t, re.S)
+        if not fm:
+            errors.append(f"{sk}: missing YAML frontmatter"); continue
+        keys = dict(re.findall(r"^(\w+):\s*(.+)$", fm.group(1), re.M))
+        if keys.get("name", "").strip() != sk.parent.name:
+            errors.append(f"{sk}: frontmatter name should be '{sk.parent.name}'")
+        if not keys.get("description", "").strip():
+            errors.append(f"{sk}: missing description")
+        elif not keys["description"].lower().startswith(("use when", "use this", "when ")):
+            errors.append(f"{sk}: description should say WHEN to use the skill")
+        body = t[fm.end():].lower()
+        if "approv" not in body:
+            errors.append(f"{sk}: no approval boundary in the body")
 print("\n".join(errors) or "All kit checks passed")
 sys.exit(1 if errors else 0)
