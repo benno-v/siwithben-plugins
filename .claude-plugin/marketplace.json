@@ -22,6 +22,11 @@
       "description": "Set Claude up in 7 steps: global, project and folder (CLAUDE.md) instruction templates, a PM project folder creator and a setup check with a scorecard."
     },
     {
+      "name": "task-tracker",
+      "source": "./plugins/task-tracker",
+      "description": "One task tracker (TASKS.md) for committed actions from Gmail, Google Calendar, Slack, Notion, ClickUp and meeting notes: sweep, morning brief, and a tick-box dashboard whose changes you paste back."
+    },
+    {
       "name": "ai-pm-project-plan",
       "source": {
         "source": "url",

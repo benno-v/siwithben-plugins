@@ -17,6 +17,14 @@ All notable changes, per plugin. Versions follow [semantic versioning](https://s
 - First release: project-charter, wbs-estimate, risk-register and exec-translator skills.
 - Documented installation in Claude Cowork and Claude Code.
 
+## task-tracker
+
+### 0.1.0 (2026-10-11)
+- First release: one TASKS.md (Open, Proposed needs approval, Done, Change log; ID, Action, Owner, Source, Raised, Due, Status, Notes) as the single source of truth.
+- sweep skill: reads Gmail, Google Calendar, Slack, Notion, ClickUp and meeting notes since the last sweep, keeps committed actions only, de-duplicates across sources and against existing rows, puts inferred or ambiguous-owner items in Proposed with a reason, never changes an owner or due date silently, and in scheduled mode only adds Proposed rows. Validation checkpoint before anything goes into a status report.
+- morning-brief skill (read only, never sends) and dashboard skill: self-contained HTML with KPI cards, tick boxes for open tasks only, inline edits, an approval panel with Approve, Reject and Edit and no tick boxes, and Copy changes / Download changes. Pasted changes are applied by script with a revision check over the task rows, per-row snapshot checks, dry run, change log and the last 5 timestamped backups; the same block is never applied twice, and nothing is written with duplicate IDs or if TASKS.md changed during the apply. Optional mirror to a Notion database on request.
+- Python 3 standard library scripts (tasks_md.py, render_dashboard.py, apply_changes.py), paste-ready Cowork scheduled tasks, SETUP-PACK.md, fictional five-source sample data and unit tests; tests run in CI.
+
 ## claude-setup-kit
 
 ### 0.1.0 (2026-10-11)

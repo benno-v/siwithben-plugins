@@ -1,0 +1,52 @@
+{
+  "base_revision": "e91924acdb08",
+  "generated": "2026-10-11T21:09:34.455Z",
+  "ops": [
+    {
+      "op": "update",
+      "id": "T-002",
+      "fields": {
+        "owner": "Fatima Khan",
+        "due": "2026-10-20"
+      },
+      "before": {
+        "section": "open",
+        "action": "Book training room for the customer service session",
+        "owner": "Sam Taylor",
+        "source": "Meeting notes: weekly check-in (2026-10-01)",
+        "raised": "2026-10-01",
+        "due": "2026-10-14",
+        "status": "Open",
+        "notes": "Session is Wednesday 14 Oct"
+      }
+    },
+    {
+      "op": "complete",
+      "id": "T-003",
+      "before": {
+        "section": "open",
+        "action": "Send updated Q4 budget forecast to finance",
+        "owner": "Alex Morgan",
+        "source": "Gmail: \"Q4 budget forecast\" from Mei Chen (2026-10-02)",
+        "raised": "2026-10-02",
+        "due": "2026-10-12",
+        "status": "Open",
+        "notes": ""
+      }
+    },
+    {
+      "op": "approve",
+      "id": "T-007",
+      "before": {
+        "section": "proposed",
+        "action": "Organise a team lunch after go-live",
+        "owner": "",
+        "source": "Slack: #customer-portal (2026-10-03)",
+        "raised": "2026-10-03",
+        "due": "",
+        "status": "Proposed",
+        "notes": "Owner unclear: Sam suggested it, nobody took it on"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "task-tracker",
+  "version": "0.1.0",
+  "description": "One task tracker for everything you have committed to, pulled from Gmail, Google Calendar, Slack, Notion, ClickUp and meeting notes into a single TASKS.md: committed actions only, de-duplicated, with owner, source, raised and due dates. Morning brief, a tick-box dashboard whose changes you paste back, and paste-ready scheduled sweeps. Works in Claude Code and Claude Cowork. By Benjamin Vermeulen, @SIwithBen.",
+  "author": {
+    "name": "Benjamin Vermeulen",
+    "url": "https://www.youtube.com/@SIwithBen"
+  },
+  "homepage": "https://www.youtube.com/@SIwithBen",
+  "license": "MIT",
+  "keywords": [
+    "action-items",
+    "claude-code",
+    "clickup",
+    "cowork",
+    "dashboard",
+    "gmail",
+    "meeting-notes",
+    "morning-brief",
+    "notion",
+    "project-management",
+    "scheduled-tasks",
+    "slack",
+    "task-tracker",
+    "todo"
+  ]
+}

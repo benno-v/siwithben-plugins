@@ -9,6 +9,7 @@ I make practical plugins for project managers and busy professionals, to go with
 | [pm-status-report](plugins/pm-status-report) | Rough notes → consistent weekly status report with RAG rating |
 | [pm-toolkit](plugins/pm-toolkit) | Charter, WBS + PERT, risk register, exec translator, project summary, weekly priorities, risk update, stakeholder email, Gantt chart |
 | [claude-setup-kit](plugins/claude-setup-kit) | Set Claude up in 7 steps: global, project and folder (CLAUDE.md) instruction templates, a PM project folder creator and a setup check |
+| [task-tracker](plugins/task-tracker) | One TASKS.md for every committed action from Gmail, Calendar, Slack, Notion, ClickUp and meeting notes: sweep, morning brief and a tick-box dashboard ([setup pack](plugins/task-tracker/SETUP-PACK.md)) |
 | [ai-pm-project-plan](https://github.com/benno-v/ai-pm-project-plan) | Client-ready Gantt with milestones, tracker and status snapshot as HTML, PowerPoint, Excel and PDF (lives in its own public repo) |
 
 ## Install one plugin

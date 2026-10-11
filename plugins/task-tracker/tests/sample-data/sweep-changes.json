@@ -1,0 +1,17 @@
+{
+  "base_revision": "e91924acdb08",
+  "generated": "2026-10-12T08:05:00Z",
+  "source": "sweep",
+  "last_sweep": "2026-10-12 08:00",
+  "ops": [
+    {"op": "add", "fields": {"action": "Send signed purchase order to procurement", "owner": "Mei Chen", "source": "Gmail: \"Purchase order\" from Mei Chen (2026-10-09) https://example.com/mail/thread/purchase-order; Slack: #customer-portal (2026-10-07) https://example.com/slack/customer-portal/p207; Meeting notes: weekly check-in (2026-10-07)", "raised": "2026-10-07", "due": "2026-10-14", "status": "Open"}},
+    {"op": "add", "fields": {"action": "Set up UAT environment", "owner": "Tom Becker", "source": "ClickUp: CP-121 (2026-10-07) https://example.com/clickup/CP-121", "raised": "2026-10-07", "due": "2026-10-19", "status": "Open"}},
+    {"op": "add", "fields": {"action": "Write go-live comms plan", "owner": "Alex Morgan", "source": "ClickUp: CP-124 (2026-10-08) https://example.com/clickup/CP-124; Meeting notes: weekly check-in (2026-10-07)", "raised": "2026-10-07", "due": "2026-10-20", "status": "Open"}},
+    {"op": "add", "fields": {"action": "Rotate the admin passwords before UAT starts", "owner": "Tom Becker", "source": "Meeting notes: security review follow-up (2026-10-08)", "raised": "2026-10-08", "due": "", "status": "Open", "notes": "Due 'before UAT starts': date to confirm"}},
+    {"op": "add", "fields": {"action": "Book the accessibility auditor before go-live", "owner": "", "source": "Slack: #portal-launch (2026-10-09) https://example.com/slack/portal-launch/p311", "raised": "2026-10-09", "due": "", "status": "Proposed", "notes": "Owner unclear: Sam Taylor and Jordan Lee named in one message, Jordan said 'happy to help'. 'Ideally this week' is not a due date"}},
+    {"op": "add", "fields": {"action": "Check the data migration test results with the vendor", "owner": "", "source": "Meeting notes: weekly check-in (2026-10-07)", "raised": "2026-10-07", "due": "2026-10-09", "status": "Proposed", "notes": "Owner unclear: Priya Nair or Tom Becker ('one of them'). 'Before Friday' read as Fri 9 Oct from the meeting date"}},
+    {"op": "update", "id": "T-003", "fields": {"source": "Gmail: \"Q4 budget forecast\" from Mei Chen (2026-10-02); Gmail: \"Re: Q4 budget forecast\" from Mei Chen (2026-10-06) https://example.com/mail/thread/q4-forecast"}},
+    {"op": "update", "id": "T-005", "fields": {"due": "2026-10-21"}},
+    {"op": "complete", "id": "T-001", "date": "2026-10-09"}
+  ]
+}
