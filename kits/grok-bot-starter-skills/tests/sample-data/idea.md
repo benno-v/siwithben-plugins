@@ -9,7 +9,7 @@ Test input for `skills/red-team-review`. Northwind Traders is a fictional compan
 ## Proposal: replace weekly status meetings with an AI-written async report
 
 **From:** Operations PMO, Northwind Traders
-**Decision needed by:** end of October 2026
+**Decision needed by:** four weeks from today
 
 ### The problem
 
@@ -28,7 +28,7 @@ Cancel the weekly status meeting. Instead, every Monday at 08:00 an AI assistant
 
 ### How we'd roll it out
 
-1. Switch it on for all workstreams from 2 November.
+1. Switch it on for all workstreams from the Monday after the decision.
 2. Cancel the Monday meeting the same week.
 3. The PMO checks the first report; after that it runs automatically.
 

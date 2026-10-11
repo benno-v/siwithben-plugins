@@ -19,6 +19,10 @@ All notable changes, per plugin. Versions follow [semantic versioning](https://s
 
 ## kits/grok-bot-starter-skills
 
+### 1.1.0 (2026-10-11)
+- Add weekly-status-report skill: gathers the week's evidence from email, calendar, task tracker and meeting notes, drafts a DRAFT-labelled report in the pm-status-report structure (RAG with reason, done, in progress, blockers and risks, milestones, budget and schedule, decisions needed, next steps) with sources and a missing-data list. Never sends. Paste-ready Friday 14:00 routine plus an optional "send to me only" draft variant.
+- Sample data now uses relative dates (today, yesterday, this Wednesday) so dry runs never trigger the stale-data warning. New weekly-status sample data.
+
 ### 1.0.0 (2026-10-11)
 - First release: inbox-cleanup, follow-up-tracker and red-team-review skills (SKILL.md, approval-first, paste-ready routine prompts with suggested schedules), two-jobs-at-once example, sample data, dry-run evidence and downloadable zip.
 - CI: scripts/check_kits.py now validates skill frontmatter (name matches folder, description says when to use it) and that each skill states an approval boundary.

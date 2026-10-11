@@ -48,4 +48,4 @@ MIT — see [LICENSE](LICENSE).
 | Kit | What it is |
 |---|---|
 | [chatgpt-pm-prompt-pack](kits/chatgpt-pm-prompt-pack) ([zip](kits/chatgpt-pm-prompt-pack.zip)) | My five PM prompts as a ready-to-build ChatGPT custom GPT (instructions, knowledge file, starters) plus a plain copy-paste prompt pack |
-| [grok-bot-starter-skills](kits/grok-bot-starter-skills) ([zip](kits/grok-bot-starter-skills.zip)) | Three approval-first Grok Bot skills (inbox clean-up, follow-up tracker, red-team review) with paste-ready routines, plus a two-jobs-at-once example |
+| [grok-bot-starter-skills](kits/grok-bot-starter-skills) ([zip](kits/grok-bot-starter-skills.zip)) | Four approval-first Grok Bot skills (inbox clean-up, follow-up tracker, red-team review, weekly status report) with paste-ready routines, plus a two-jobs-at-once example |
