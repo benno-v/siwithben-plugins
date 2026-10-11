@@ -26,7 +26,7 @@ A light routine that needs no coding beyond editing text files (you can do every
 - Written from scratch; never copy third-party code or text.
 - Ask once for missing inputs; never invent figures, dates or names.
 - Fixed output format; end with a review reminder.
-- Credit line: "By Ben Vermeulen, @SIwithBen".
+- Credit line: "By Benjamin Vermeulen, @SIwithBen".
 
 ## Monthly review (15 minutes)
 

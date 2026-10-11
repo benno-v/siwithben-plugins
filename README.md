@@ -2,7 +2,7 @@
 
 Practical plugins for project managers and busy professionals, from the YouTube channel [SI with Ben](https://www.youtube.com/@SIwithBen). Every plugin works in **Claude Code** and **Claude Cowork**.
 
-*By Ben Vermeulen, @SIwithBen.*
+*By Benjamin Vermeulen, @SIwithBen.*
 
 | Plugin | What it does |
 |---|---|

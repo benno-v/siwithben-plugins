@@ -1,9 +1,9 @@
 {
   "name": "pm-toolkit",
   "version": "0.1.0",
-  "description": "Four everyday project management skills: project charter, WBS with PERT estimates, risk register with likelihood/impact matrix, and an executive translator Works in Claude Code and Claude Cowork. By Ben Vermeulen, @SIwithBen.",
+  "description": "Four everyday project management skills: project charter, WBS with PERT estimates, risk register with likelihood/impact matrix, and an executive translator Works in Claude Code and Claude Cowork. By Benjamin Vermeulen, @SIwithBen.",
   "author": {
-    "name": "Ben Vermeulen",
+    "name": "Benjamin Vermeulen",
     "url": "https://www.youtube.com/@SIwithBen"
   },
   "homepage": "https://www.youtube.com/@SIwithBen",

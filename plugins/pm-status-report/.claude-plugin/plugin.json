@@ -1,9 +1,9 @@
 {
   "name": "pm-status-report",
   "version": "0.1.0",
-  "description": "Turn rough project notes into a consistent, executive-ready weekly status report with a RAG rating Works in Claude Code and Claude Cowork. By Ben Vermeulen, @SIwithBen.",
+  "description": "Turn rough project notes into a consistent, executive-ready weekly status report with a RAG rating Works in Claude Code and Claude Cowork. By Benjamin Vermeulen, @SIwithBen.",
   "author": {
-    "name": "Ben Vermeulen",
+    "name": "Benjamin Vermeulen",
     "url": "https://www.youtube.com/@SIwithBen"
   },
   "homepage": "https://www.youtube.com/@SIwithBen",

@@ -2,7 +2,7 @@
 
 Four everyday project management skills that give you consistent, ready-to-review documents in seconds.
 
-*By Ben Vermeulen, [@SIwithBen](https://www.youtube.com/@SIwithBen).*
+*By Benjamin Vermeulen, [@SIwithBen](https://www.youtube.com/@SIwithBen).*
 
 Featured in: [5 ChatGPT Prompts Every Project Manager Needs](https://www.youtube.com/watch?v=480NbXPA5q8) and [How to create a Project Charter](https://www.youtube.com/watch?v=nnqyx-8pIVM)
 
@@ -57,7 +57,7 @@ You can also just describe what you need ("draft a charter for…", "what are th
 
 ## Always review
 
-AI output is a draft. You are the final quality gate: check every figure, owner and date before it goes to a sponsor or client.
+SI output is a draft. You are the final quality gate: check every figure, owner and date before it goes to a sponsor or client.
 
 ## License
 

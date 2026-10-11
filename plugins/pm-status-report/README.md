@@ -2,7 +2,7 @@
 
 Turn rough project notes into a consistent, executive-ready weekly status report, with an overall Red/Amber/Green rating, in the same layout every week.
 
-*By Ben Vermeulen, [@SIwithBen](https://www.youtube.com/@SIwithBen).*
+*By Benjamin Vermeulen, [@SIwithBen](https://www.youtube.com/@SIwithBen).*
 
 Featured in: [Claude for Beginners: Skills, Connectors & Plugin](https://www.youtube.com/watch?v=6T3iAzpWIKU)
 
