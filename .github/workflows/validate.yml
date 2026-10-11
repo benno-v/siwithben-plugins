@@ -1,0 +1,26 @@
+name: Validate plugins
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Structure checks (names, semver, skill frontmatter)
+        run: python3 scripts/check_plugins.py
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+      - name: claude plugin validate (marketplace + each plugin)
+        run: |
+          claude plugin validate .
+          for d in plugins/*/; do claude plugin validate "$d"; done
