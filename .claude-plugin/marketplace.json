@@ -17,6 +17,11 @@
       "description": "Project charter, WBS with PERT estimates, risk register, executive translator, project summary, weekly priorities, risk update and stakeholder email skills for project managers."
     },
     {
+      "name": "claude-setup-kit",
+      "source": "./plugins/claude-setup-kit",
+      "description": "Set Claude up in 7 steps: global, project and folder (CLAUDE.md) instruction templates, a PM project folder creator and a setup check with a scorecard."
+    },
+    {
       "name": "ai-pm-project-plan",
       "source": {
         "source": "url",

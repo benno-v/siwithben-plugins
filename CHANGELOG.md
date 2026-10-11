@@ -12,6 +12,11 @@ All notable changes, per plugin. Versions follow [semantic versioning](https://s
 - First release: project-charter, wbs-estimate, risk-register and exec-translator skills.
 - Documented installation in Claude Cowork and Claude Code.
 
+## claude-setup-kit
+
+### 0.1.0 (2026-10-11)
+- First release: templates for global instructions, project instructions and a project folder CLAUDE.md; pm-project-init skill with a stdlib Python script that creates a PM project folder and never overwrites existing files; setup-check skill that scores a setup against the 7 steps and only proposes changes.
+
 ## ai-pm-project-plan (external, benno-v/ai-pm-project-plan)
 
 ### 1.1.0 (2026-10-11)

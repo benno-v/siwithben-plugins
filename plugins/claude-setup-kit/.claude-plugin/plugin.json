@@ -1,0 +1,24 @@
+{
+  "name": "claude-setup-kit",
+  "version": "0.1.0",
+  "description": "Set Claude up properly in 7 steps: fill-in templates for global, project and folder (CLAUDE.md) instructions, a skill that creates a ready-to-use PM project folder, and a skill that checks your current setup and suggests fixes. Works in Claude Code and Claude Cowork. By Benjamin Vermeulen, @SIwithBen.",
+  "author": {
+    "name": "Benjamin Vermeulen",
+    "url": "https://www.youtube.com/@SIwithBen"
+  },
+  "homepage": "https://www.youtube.com/@SIwithBen",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-md",
+    "cowork",
+    "custom-instructions",
+    "folder-structure",
+    "global-instructions",
+    "project-instructions",
+    "project-management",
+    "projects",
+    "setup",
+    "skills"
+  ]
+}

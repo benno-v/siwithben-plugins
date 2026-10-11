@@ -20,6 +20,7 @@ jobs:
         run: python3 scripts/check_plugins.py
       - name: Kit checks (zips in sync, GPT limits)
         run: python3 scripts/check_kits.py
+      - run: python3 -m unittest discover -s plugins/claude-setup-kit/tests -v
       - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
       - name: claude plugin validate (marketplace + each plugin)

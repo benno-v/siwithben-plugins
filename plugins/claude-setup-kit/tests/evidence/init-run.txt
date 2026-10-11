@@ -1,0 +1,80 @@
+Project folder: /tmp/tmp.fb9Glkh94K/warehouse-scanner-roll-out
+
+Created: 17
+  - warehouse-scanner-roll-out/
+  - 01-initiation/
+  - 02-planning/
+  - 03-execution/
+  - 04-monitoring-and-control/
+  - 05-closure/
+  - context/
+  - inputs/
+  - outputs/
+  - archive/
+  - CLAUDE.md
+  - context/project-brief.md
+  - context/stakeholders.md
+  - context/glossary.md
+  - context/decisions-log.md
+  - inputs/README.md
+  - outputs/README.md
+
+Skipped (already exists, left unchanged): 0
+
+Reused existing folders: 0
+
+Problems: 0
+--- tree
+
+/warehouse-scanner-roll-out
+/warehouse-scanner-roll-out/01-initiation
+/warehouse-scanner-roll-out/02-planning
+/warehouse-scanner-roll-out/03-execution
+/warehouse-scanner-roll-out/04-monitoring-and-control
+/warehouse-scanner-roll-out/05-closure
+/warehouse-scanner-roll-out/CLAUDE.md
+/warehouse-scanner-roll-out/archive
+/warehouse-scanner-roll-out/context
+/warehouse-scanner-roll-out/context/decisions-log.md
+/warehouse-scanner-roll-out/context/glossary.md
+/warehouse-scanner-roll-out/context/project-brief.md
+/warehouse-scanner-roll-out/context/stakeholders.md
+/warehouse-scanner-roll-out/inputs
+/warehouse-scanner-roll-out/inputs/README.md
+/warehouse-scanner-roll-out/outputs
+/warehouse-scanner-roll-out/outputs/README.md
+--- run 2
+{
+  "project_name": "Warehouse Scanner Roll-out",
+  "slug": "warehouse-scanner-roll-out",
+  "dry_run": false,
+  "created": [],
+  "skipped": [
+    "CLAUDE.md",
+    "context/project-brief.md",
+    "context/stakeholders.md",
+    "context/glossary.md",
+    "context/decisions-log.md",
+    "inputs/README.md",
+    "outputs/README.md"
+  ],
+  "reused": [
+    "warehouse-scanner-roll-out/",
+    "01-initiation/",
+    "02-planning/",
+    "03-execution/",
+    "04-monitoring-and-control/",
+    "05-closure/",
+    "context/",
+    "inputs/",
+    "outputs/",
+    "archive/"
+  ],
+  "errors": [],
+  "project_dir": "/tmp/tmp.fb9Glkh94K/warehouse-scanner-roll-out"
+}
+--- glossary after:
+custom
+--- traversal
+Error: Project name must not contain '/', '\' or '..'.
+exit 2

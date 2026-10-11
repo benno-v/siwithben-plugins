@@ -1,0 +1,10 @@
+test_dry_run_writes_nothing (test_init.InitPmProjectTest.test_dry_run_writes_nothing) ... ok
+test_idempotent (test_init.InitPmProjectTest.test_idempotent) ... ok
+test_no_overwrite (test_init.InitPmProjectTest.test_no_overwrite) ... ok
+test_rejects_unsafe_names (test_init.InitPmProjectTest.test_rejects_unsafe_names) ... ok
+test_structure (test_init.InitPmProjectTest.test_structure) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.321s
+
+OK
