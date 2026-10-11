@@ -18,6 +18,8 @@ jobs:
           python-version: "3.12"
       - name: Structure checks (names, semver, skill frontmatter)
         run: python3 scripts/check_plugins.py
+      - name: Kit checks (zips in sync, GPT limits)
+        run: python3 scripts/check_kits.py
       - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
       - name: claude plugin validate (marketplace + each plugin)

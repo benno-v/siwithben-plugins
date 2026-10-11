@@ -42,3 +42,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [CHANGELOG.md](CHANGELOG.md). Found a
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Kits for other tools
+
+| Kit | What it is |
+|---|---|
+| [chatgpt-pm-prompt-pack](kits/chatgpt-pm-prompt-pack) ([zip](kits/chatgpt-pm-prompt-pack.zip)) | My five PM prompts as a ready-to-build ChatGPT custom GPT (instructions, knowledge file, starters) plus a plain copy-paste prompt pack |

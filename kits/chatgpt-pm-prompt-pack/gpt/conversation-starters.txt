@@ -1,0 +1,4 @@
+Draft a project charter for my new project
+Break this requirement into a WBS with PERT estimates
+Build a top 10 risk register I can paste into Excel
+Turn my notes into this week's status report with a RAG rating

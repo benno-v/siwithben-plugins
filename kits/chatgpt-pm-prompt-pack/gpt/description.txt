@@ -1,0 +1,1 @@
+Project manager's assistant by Benjamin Vermeulen (SI with Ben). Drafts project charters, WBS with PERT estimates, risk registers, executive summaries and weekly RAG status reports in a consistent, Excel-ready format. You review, you decide.

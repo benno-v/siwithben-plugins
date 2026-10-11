@@ -17,6 +17,12 @@ All notable changes, per plugin. Versions follow [semantic versioning](https://s
 ### 1.1.0 (2026-10-11)
 - Listed in this marketplace via a git URL source. Release notes live in that repo's CHANGELOG (PDF output, milestones on the Gantt, robust HTML preview).
 
+## kits/chatgpt-pm-prompt-pack
+
+### 1.0.0 (2026-10-11)
+- First release: custom GPT kit (name, description, 6,360-character instructions, 4 conversation starters, pm-templates.md knowledge file with charter, WBS + PERT, risk register, exec translator and weekly status templates), plain prompt-pack.md, sample inputs, test evidence and downloadable zip.
+- CI: scripts/check_kits.py checks the zip is in sync and the GPT limits (instructions under 8,000 characters, description under 300, at most 4 starters).
+
 ## marketplace
 
 ### 2026-10-11
