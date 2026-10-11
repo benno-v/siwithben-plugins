@@ -1,0 +1,9 @@
+id,task,phase,owner,start,end,duration_days,depends_on,milestone,status,percent_complete
+T1,Kick-off workshop,Initiation,Project manager,2026-11-02,2026-11-03,,,no,Done,100
+T2,Gather requirements,Initiation,Business analyst,,,5,T1,no,In progress,40
+T3,Solution design,Design,Solution architect,,,7,T2,no,Not started,0
+M1,Design sign-off,Design,Sponsor,,,,T3,yes,Not started,0
+T4,Build,Delivery,Development lead,,,10,M1,no,Not started,0
+T5,Training materials,Delivery,Change lead,2026-11-09,,4,T2,no,Not started,0
+T6,User acceptance testing,Delivery,Test lead,,,5,T4,no,Not started,0
+M2,Go-live,Delivery,Sponsor,,,,T6;T5,yes,Not started,0

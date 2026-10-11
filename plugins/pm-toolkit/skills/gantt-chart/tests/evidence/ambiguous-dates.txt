@@ -1,0 +1,1 @@
+{"error": "Every slash date could be DD/MM/YYYY or MM/DD/YYYY. I won't guess: confirm with the user, then run again with --date-format dmy or mdy."}

@@ -1,12 +1,12 @@
 # PM Toolkit (Claude Code & Cowork plugin)
 
-Eight everyday project management skills that give you consistent, ready-to-review documents in seconds.
+Nine everyday project management skills that give you consistent, ready-to-review documents and charts in seconds.
 
 I built these from the prompts I use most as a project and programme manager, and show them in my videos.
 
 *By Benjamin Vermeulen, [@SIwithBen](https://www.youtube.com/@SIwithBen).*
 
-Featured in: [5 ChatGPT Prompts Every Project Manager Needs](https://www.youtube.com/watch?v=480NbXPA5q8), [How to create a Project Charter](https://www.youtube.com/watch?v=nnqyx-8pIVM) and [Simple guide to setup Claude Cowork for your projects](https://youtu.be/pmQO4wLXspI)
+Featured in: [5 ChatGPT Prompts Every Project Manager Needs](https://www.youtube.com/watch?v=480NbXPA5q8), [How to create a Project Charter](https://www.youtube.com/watch?v=nnqyx-8pIVM), [Simple guide to setup Claude Cowork for your projects](https://youtu.be/pmQO4wLXspI) and [building a Gantt chart skill (from 10:09)](https://youtu.be/6T3iAzpWIKU?t=609)
 
 ## Install
 
@@ -46,8 +46,9 @@ Team/Enterprise owners can sync this repo for the whole organisation under **Org
 | Weekly priorities | `/pm-toolkit:weekly-priorities` | The top 3 priorities for the week from your latest status report/notes, with why each matters, its source, and what to chase |
 | Risk update | `/pm-toolkit:risk-update` | Line-by-line proposed changes to an existing risk register's status, score and notes — verifies each risk ID against its description and never edits without your confirmation |
 | Stakeholder email | `/pm-toolkit:stakeholder-email` | A concise draft email from this week's priorities and decisions — subject, context, decisions needed with dates, one clear ask; never sends anything |
+| Gantt chart | `/pm-toolkit:gantt-chart` | A Gantt chart from a pasted list, CSV/Excel file or a connected PM tool (read only): interactive HTML, an Excel workbook whose bars move when you edit dates, and a PowerPoint deck, with milestones, dependencies, the critical path and a list of tasks that still need dates |
 
-You can also just describe what you need ("draft a charter for…", "what are the top risks for…", "where are we on this project") and Claude picks the right skill.
+You can also just describe what you need ("draft a charter for…", "what are the top risks for…", "where are we on this project", "make a Gantt chart from this task list") and Claude picks the right skill.
 
 **Weekly status report:** that one lives in its own plugin, [pm-status-report](../pm-status-report):
 
@@ -55,10 +56,24 @@ You can also just describe what you need ("draft a charter for…", "what are th
 /plugin install pm-status-report@siwithben-plugins
 ```
 
+## Gantt chart output
+
+Example prompt: *"Make a Gantt chart from tasks.csv, calendar days, and save it in outputs."*
+
+You get three files, saved locally and never sent anywhere:
+
+- **`<plan>-gantt.html`**: an interactive chart that works offline. Task table on the left, bars on the right, day/week/month zoom (or Ctrl + scroll), milestones as diamonds, dependency arrows, a critical path toggle, phase groups, hover details (owner, dates, status), a today line, and panels for unscheduled tasks and checks. Prints in landscape.
+- **`<plan>-gantt.xlsx`**: a Gantt sheet whose bars are conditional formatting, so they move when you edit Start or End, plus a Days formula, critical path and milestone colours and a today column. A Tasks sheet holds all the data and a Checks sheet lists every issue.
+- **`<plan>-gantt.pptx`**: a 16:9 deck with a title slide, Gantt slides (about 18 tasks each, milestones, critical path, today line, legend) and a Gaps and checks slide.
+
+Dates are never invented. Tasks without enough data (dates, a date plus a duration, or dependencies plus a duration) are listed under "Unscheduled, needs dates" instead of being drawn. The checks also flag circular or unknown dependencies, end dates before start dates and missing owners. Durations are in calendar days unless you ask for working days. The Excel and PowerPoint files need Python with `openpyxl` and `python-pptx`; the HTML needs only Python 3.
+
+Watch me build a Gantt chart skill: [youtu.be/6T3iAzpWIKU, from 10:09](https://youtu.be/6T3iAzpWIKU?t=609).
+
 ## How the skills behave
 
 - They ask once for anything important that is missing, then get on with it.
-- They never invent figures, dates or names; gaps are marked "Not provided" or "TBC".
+- They never invent figures, dates or names; gaps are marked "Not provided" or "TBC" (or, in a Gantt chart, listed as unscheduled).
 - Output always follows the same layout, so your documents look consistent.
 
 ## Always review

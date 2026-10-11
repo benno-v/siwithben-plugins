@@ -21,6 +21,10 @@ jobs:
       - name: Kit checks (zips in sync, GPT limits)
         run: python3 scripts/check_kits.py
       - run: python3 -m unittest discover -s plugins/claude-setup-kit/tests -v
+      - name: gantt-chart tests
+        run: |
+          python3 -m pip install openpyxl python-pptx
+          python3 -m unittest discover -s plugins/pm-toolkit/skills/gantt-chart/tests -v
       - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
       - name: claude plugin validate (marketplace + each plugin)

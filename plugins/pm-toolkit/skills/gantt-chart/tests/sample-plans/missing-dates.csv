@@ -1,0 +1,13 @@
+id,task,phase,owner,start,end,duration_days,depends_on,milestone,status,percent_complete
+A1,Discovery interviews,Research,UX researcher,02/11/2026,13/11/2026,,,no,In progress,50
+A2,Survey analysis,Research,Data analyst,,,5,A1,no,Not started,0
+A3,Persona workshop,Research,UX researcher,,,,,no,Not started,0
+A4,Findings report,Research,,23/11/2026,27/11/2026,,A2,no,Not started,0
+M1,Research complete,Research,Product owner,,,,A4,yes,Not started,0
+B1,Feature prioritisation,Planning,Product owner,,,3,M1,no,Not started,0
+B2,Roadmap draft,Planning,Product manager,10/12/2026,04/12/2026,,B1,no,Not started,0
+B3,Budget estimate,Planning,Finance partner,,,4,,no,Not started,0
+B4,Vendor shortlist,Planning,Procurement lead,,,6,B1;X9,no,Not started,0
+C1,Pilot preparation,Pilot,Delivery lead,,,5,B4,no,Not started,0
+C2,Pilot launch communications,Pilot,Change lead,,,,,no,Not started,0
+M2,Pilot ready,Pilot,Sponsor,,,,C1,yes,Not started,0

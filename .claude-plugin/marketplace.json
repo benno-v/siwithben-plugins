@@ -14,7 +14,7 @@
     {
       "name": "pm-toolkit",
       "source": "./plugins/pm-toolkit",
-      "description": "Project charter, WBS with PERT estimates, risk register, executive translator, project summary, weekly priorities, risk update and stakeholder email skills for project managers."
+      "description": "Project charter, WBS with PERT estimates, risk register, executive translator, project summary, weekly priorities, risk update, stakeholder email and Gantt chart (HTML, Excel, PowerPoint) skills for project managers."
     },
     {
       "name": "claude-setup-kit",

@@ -1,0 +1,46 @@
+{
+  "name": "Sample missing-dates",
+  "files": [
+    "missing-dates/sample-missing-dates-gantt.html",
+    "missing-dates/sample-missing-dates-gantt.xlsx",
+    "missing-dates/sample-missing-dates-gantt.pptx"
+  ],
+  "day_mode": "calendar",
+  "date_format": "dmy",
+  "date_note": null,
+  "range": [
+    "2026-11-02",
+    "2026-12-11"
+  ],
+  "counts": {
+    "tasks": 12,
+    "scheduled": 8,
+    "derived": 6,
+    "unscheduled": 3,
+    "invalid": 1,
+    "milestones": 2,
+    "critical": 6,
+    "warnings": 3
+  },
+  "critical_path": [
+    "A4",
+    "M1",
+    "B1",
+    "B4",
+    "C1",
+    "M2"
+  ],
+  "unscheduled_ids": [
+    "A3",
+    "B3",
+    "C2"
+  ],
+  "invalid_ids": [
+    "B2"
+  ],
+  "warnings": [
+    "A4 (Findings report) has no owner.",
+    "B4 depends on X9, which is not in the plan.",
+    "B2 ends (2026-12-04) before it starts (2026-12-10); not drawn."
+  ]
+}

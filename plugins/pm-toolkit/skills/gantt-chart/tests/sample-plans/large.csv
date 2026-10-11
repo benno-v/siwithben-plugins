@@ -1,0 +1,49 @@
+id,task,phase,owner,start,end,duration_days,depends_on,milestone,status,percent_complete
+1.1,Confirm business case,Initiation,PMO lead,2027-01-04,,5,,no,Done,100
+1.2,Appoint project team,Initiation,Sponsor,,,5,1.1,no,Done,100
+1.3,Stakeholder analysis,Initiation,Project manager,,,4,1.1,no,Done,100
+1.4,Draft project charter,Initiation,Project manager,,,5,1.2;1.3,no,In progress,60
+1.5,Charter approved,Initiation,Sponsor,,,,1.4,yes,Not started,0
+2.1,Scope workshops,Planning,Business analyst,,,8,1.5,no,Not started,0
+2.2,Requirements catalogue,Planning,Business analyst,,,10,2.1,no,Not started,0
+2.3,Delivery schedule baseline,Planning,Project manager,,,5,2.1,no,Not started,0
+2.4,Budget and resource plan,Planning,Finance partner,,,6,2.3,no,Not started,0
+2.5,Risk register and RAID log,Planning,Project manager,,,3,2.3,no,Not started,0
+2.6,Communications plan,Planning,Change lead,,,4,2.1,no,Not started,0
+2.7,Plan approved,Planning,Sponsor,,,,2.2;2.4;2.5,yes,Not started,0
+3.1,Current process mapping,Design,Business analyst,,,6,2.7,no,Not started,0
+3.2,Target process design,Design,Business analyst,,,8,3.1,no,Not started,0
+3.3,Solution architecture,Design,Solution architect,,,10,2.7,no,Not started,0
+3.4,Data model and migration approach,Design,Data lead,,,8,3.3,no,Not started,0
+3.5,Integration design,Design,Integration lead,,,9,3.3,no,Not started,0
+3.6,Security and privacy review,Design,Security lead,,,5,3.4;3.5,no,Not started,0
+3.7,User experience prototypes,Design,UX designer,,,12,3.2,no,Not started,0
+3.8,Prototype user testing,Design,UX designer,,,5,3.7,no,Not started,0
+3.9,Design authority sign-off,Design,Solution architect,,,,3.6;3.8,yes,Not started,0
+4.1,Environment set-up,Build and test,Platform engineer,,,7,2.7,no,Not started,0
+4.2,Portal build sprint 1,Build and test,Development lead,,,10,3.9;4.1,no,Not started,0
+4.3,Portal build sprint 2,Build and test,Development lead,,,10,4.2,no,Not started,0
+4.4,Portal build sprint 3,Build and test,Development lead,,,10,4.3,no,Not started,0
+4.5,Integration build,Build and test,Integration lead,,,15,3.9;4.1,no,Not started,0
+4.6,Data migration scripts,Build and test,Data lead,,,12,3.9,no,Not started,0
+4.7,Trial migration 1,Build and test,Data lead,,,4,4.6;4.1,no,Not started,0
+4.8,System testing,Build and test,Test lead,,,10,4.4;4.5,no,Not started,0
+4.9,Performance testing,Build and test,Test lead,,,5,4.8,no,Not started,0
+4.10,Penetration test,Build and test,Security lead,,,5,4.8,no,Not started,0
+4.11,Trial migration 2,Build and test,Data lead,,,4,4.7;4.8,no,Not started,0
+4.12,User acceptance testing,Build and test,Test lead,,,10,4.9;4.10;4.11,no,Not started,0
+4.13,Defect fixing,Build and test,Development lead,,,8,4.12,no,Not started,0
+4.14,UAT sign-off,Build and test,Sponsor,,,,4.13,yes,Not started,0
+5.1,Training needs analysis,Deployment,Change lead,,,5,3.9,no,Not started,0
+5.2,Training materials,Deployment,Change lead,,,10,5.1,no,Not started,0
+5.3,Train-the-trainer sessions,Deployment,Change lead,,,5,5.2,no,Not started,0
+5.4,End-user training,Deployment,Change lead,,,10,5.3;4.14,no,Not started,0
+5.5,Cutover plan,Deployment,Project manager,,,6,4.12,no,Not started,0
+5.6,Go/no-go decision,Deployment,Sponsor,,,,5.5;4.14,yes,Not started,0
+5.7,Production deployment,Deployment,Platform engineer,,,2,5.6,no,Not started,0
+5.8,Final data migration,Deployment,Data lead,,,3,5.6,no,Not started,0
+5.9,Go-live,Deployment,Sponsor,,,,5.7;5.8,yes,Not started,0
+5.10,Hypercare support,Deployment,Service manager,,,15,5.9,no,Not started,0
+5.11,Handover to service,Deployment,Service manager,,,5,5.10,no,Not started,0
+5.12,Lessons learned workshop,Deployment,Project manager,,,2,5.10,no,Not started,0
+5.13,Project closure,Deployment,Sponsor,,,,5.11;5.12;5.4,yes,Not started,0

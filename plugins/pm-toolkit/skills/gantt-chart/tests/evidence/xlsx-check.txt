@@ -1,0 +1,9 @@
+small ['Gantt', 'Tasks', 'Checks'] freeze L5 CF ranges 2 Days formula e.g. ['=IF(AND(ISNUMBER(E6),ISNUMBER(F6)),F6-E6+1,"")', '=IF(AND(ISNUMBER(E7),ISNUMBER(F7)),F7-E7+1,"")']
+    ('L5:AN15', [['AND($K5="Yes",$J5="Yes",ISNUMBER($E5),ISNUMBER($F5),$F5=L$4)'], ['AND($K5="Yes",ISNUMBER($E5),ISNUMBER($F5),$F5=L$4)'], ['AND($K5<>"Yes",$J5="Yes",ISNUMBER($E5),ISNUMBER($F5),L$4>=$E5,L$4<=$F5)'], ['AND($K5<>"Yes",ISNUMBER($E5),ISNUMBER($F5),L$4>=$E5,L$4<=$F5)']])
+    ('L4:AN15', [['L$4=TODAY()']])
+large ['Gantt', 'Tasks', 'Checks'] freeze L5 CF ranges 2 Days formula e.g. ['=IF(AND(ISNUMBER(E6),ISNUMBER(F6)),F6-E6+1,"")', '=IF(AND(ISNUMBER(E7),ISNUMBER(F7)),F7-E7+1,"")']
+    ('L5:AG57', [['AND($K5="Yes",$J5="Yes",ISNUMBER($E5),ISNUMBER($F5),$F5>=L$4,$F5<=L$4+6)'], ['AND($K5="Yes",ISNUMBER($E5),ISNUMBER($F5),$F5>=L$4,$F5<=L$4+6)'], ['AND($K5<>"Yes",$J5="Yes",ISNUMBER($E5),ISNUMBER($F5),L$4<=$F5,L$4+6>=$E5)'], ['AND($K5<>"Yes",ISNUMBER($E5),ISNUMBER($F5),L$4<=$F5,L$4+6>=$E5)']])
+    ('L4:AG57', [['AND(TODAY()>=L$4,TODAY()<=L$4+6)']])
+missing-dates ['Gantt', 'Tasks', 'Checks'] freeze L5 CF ranges 2 Days formula e.g. ['=IF(AND(ISNUMBER(E6),ISNUMBER(F6)),F6-E6+1,"")', '=IF(AND(ISNUMBER(E7),ISNUMBER(F7)),F7-E7+1,"")']
+    ('L5:AY20', [['AND($K5="Yes",$J5="Yes",ISNUMBER($E5),ISNUMBER($F5),$F5=L$4)'], ['AND($K5="Yes",ISNUMBER($E5),ISNUMBER($F5),$F5=L$4)'], ['AND($K5<>"Yes",$J5="Yes",ISNUMBER($E5),ISNUMBER($F5),L$4>=$E5,L$4<=$F5)'], ['AND($K5<>"Yes",ISNUMBER($E5),ISNUMBER($F5),L$4>=$E5,L$4<=$F5)']])
+    ('L4:AY20', [['L$4=TODAY()']])

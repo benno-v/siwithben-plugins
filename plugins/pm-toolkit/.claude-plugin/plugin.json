@@ -1,7 +1,7 @@
 {
   "name": "pm-toolkit",
-  "version": "0.2.0",
-  "description": "Eight everyday project management skills: project charter, WBS with PERT estimates, risk register with likelihood/impact matrix, executive translator, project summary, weekly priorities, risk update and stakeholder email. Works in Claude Code and Claude Cowork. By Benjamin Vermeulen, @SIwithBen.",
+  "version": "0.3.0",
+  "description": "Nine everyday project management skills: project charter, WBS with PERT estimates, risk register with likelihood/impact matrix, executive translator, project summary, weekly priorities, risk update, stakeholder email and Gantt chart (HTML, Excel and PowerPoint). Works in Claude Code and Claude Cowork. By Benjamin Vermeulen, @SIwithBen.",
   "author": {
     "name": "Benjamin Vermeulen",
     "url": "https://www.youtube.com/@SIwithBen"
@@ -12,6 +12,8 @@
     "claude-code",
     "cowork",
     "executive-summary",
+    "gantt",
+    "gantt-chart",
     "pert",
     "project-charter",
     "project-management",

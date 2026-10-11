@@ -4,6 +4,11 @@ All notable changes, per plugin. Versions follow [semantic versioning](https://s
 
 ## pm-toolkit
 
+### 0.3.0 (2026-10-11)
+- Add gantt-chart skill: collects tasks from a pasted list, a CSV/Excel file or a connected PM tool (read only), normalises them to a task JSON schema and renders an interactive self-contained HTML chart, an Excel workbook with conditional-formatting bars that follow edited dates, and a 16:9 PowerPoint deck.
+- Never invents dates or durations: tasks without enough data are listed under "Unscheduled, needs dates". Finish-to-start scheduling from dependencies, critical path by total float, calendar or working days, and checks for circular or unknown dependencies, end before start and missing owners.
+- Python scripts (standard library plus openpyxl and python-pptx), three sample plans and unit tests; tests run in CI.
+
 ### 0.2.0 (2026-10-11)
 - Add four day-to-day project skills: project-summary, weekly-priorities, risk-update and stakeholder-email.
 - risk-update verifies a risk ID against its description before editing and never edits a register without the user confirming the change first.
