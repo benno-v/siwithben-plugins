@@ -1,0 +1,12 @@
+{
+  "name": "siwithben-plugins",
+  "description": "Practical Claude Code plugins for project managers and busy professionals, by Ben Vermeulen (@SIwithBen).",
+  "owner": { "name": "Ben Vermeulen", "url": "https://www.youtube.com/@SIwithBen" },
+  "plugins": [
+    {
+      "name": "pm-status-report",
+      "source": "./plugins/pm-status-report",
+      "description": "Turn rough project notes into a consistent, executive-ready weekly status report with a RAG rating."
+    }
+  ]
+}
