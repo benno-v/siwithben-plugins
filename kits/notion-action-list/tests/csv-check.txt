@@ -1,0 +1,3 @@
+BOM: False header: ['Task', 'Owner', 'Due', 'Status', 'Priority', 'Source', 'Source link', 'Notes']
+8 rows OK; no owner: 1 no due: 1
+inferred types: Task=title, Owner=text, Due=date(MM/DD/YYYY all parse), Status=select ['Blocked', 'Done', 'In progress', 'Not started'] Priority=select ['High', 'Low', 'Medium'] Source link=url

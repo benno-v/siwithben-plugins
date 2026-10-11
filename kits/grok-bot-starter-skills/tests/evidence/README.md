@@ -17,3 +17,11 @@ Each skill was dry-run with a stand-in model (Cursor Agent, ask mode, no tools),
 | weekly-status-report (routine) | Exact pm-status-report structure, DRAFT label, RAG with reason, sources, missing data, no sending | Red with a one-line reason (Bristol cold-store Wi-Fi needs a sponsor decision). All headings in order, "DRAFT, not sent" on top. Budget given as "Not provided" and listed under Missing data, as are the UAT owner, the Glasgow date and the new date for the overdue guide. Every bullet traced in Sources. Nothing sent. |
 | weekly-status-report (send to me only) | Draft to the user only, no other recipients, not sent | One unsent draft to me@example.com only, subject "DRAFT status report: ...", no CC or BCC, no other changes. |
 | inbox-cleanup re-run on relative-date sample | Stale-data warning no longer fires spuriously | No stale warning. Triage 5 / 7 / 3 as before. |
+
+## 1.2.0 notes-to-tasks (11 Oct 2026, stand-in model: Cursor agent)
+
+| Test | Checked | Result |
+|---|---|---|
+| Proposal on messy-notes.md | Commitments vs remarks, de-dupe, owner/due/source/status, flags, proposes only | 12 mentions became 9 tasks (3 duplicates merged, all sources kept). Owner missing flagged on 2, Due unclear ("soon", "after the launch") kept as written on 2. 5 remarks, ideas and questions listed under Not actions with reasons. It asked for the notes' calendar date instead of assuming one. Nothing written. |
+| After approval (Notion connected, one existing duplicate) | Writes approved rows only, duplicate check, no messaging | Added 6, skipped 1 duplicate without changing it, didn't write the 2 unapproved rows, messaged nobody. |
+| After approval, date question unanswered | No invented dates | Found that a stand-in assumed dates here; added the rule "Only use confirmed dates". Re-run: Due left empty, relative wording kept in Notes. |
