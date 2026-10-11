@@ -17,6 +17,7 @@ Then install any plugin from it:
 | Plugin | What it does | Install |
 |---|---|---|
 | [pm-status-report](plugins/pm-status-report) | Rough notes → consistent weekly status report with RAG rating | `/plugin install pm-status-report@siwithben-plugins` |
+| [pm-toolkit](plugins/pm-toolkit) | Project charter, WBS + PERT estimates, risk register, executive translator | `/plugin install pm-toolkit@siwithben-plugins` |
 
 ## License
 
