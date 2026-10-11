@@ -1,12 +1,12 @@
 # PM Toolkit (Claude Code & Cowork plugin)
 
-Four everyday project management skills that give you consistent, ready-to-review documents in seconds.
+Eight everyday project management skills that give you consistent, ready-to-review documents in seconds.
 
 I built these from the prompts I use most as a project and programme manager, and show them in my videos.
 
 *By Benjamin Vermeulen, [@SIwithBen](https://www.youtube.com/@SIwithBen).*
 
-Featured in: [5 ChatGPT Prompts Every Project Manager Needs](https://www.youtube.com/watch?v=480NbXPA5q8) and [How to create a Project Charter](https://www.youtube.com/watch?v=nnqyx-8pIVM)
+Featured in: [5 ChatGPT Prompts Every Project Manager Needs](https://www.youtube.com/watch?v=480NbXPA5q8), [How to create a Project Charter](https://www.youtube.com/watch?v=nnqyx-8pIVM) and [Simple guide to setup Claude Cowork for your projects](https://youtu.be/pmQO4wLXspI)
 
 ## Install
 
@@ -42,8 +42,12 @@ Team/Enterprise owners can sync this repo for the whole organisation under **Org
 | WBS with PERT estimates | `/pm-toolkit:wbs-estimate` | Task breakdown with optimistic / likely / pessimistic hours, PERT totals and a confidence range |
 | Risk register | `/pm-toolkit:risk-register` | Risks with likelihood/impact scores, a 3x3 risk matrix, mitigations and suggested owners |
 | Executive translator | `/pm-toolkit:exec-translator` | A technical update rewritten as a 30-second exec summary with one clear decision |
+| Project summary | `/pm-toolkit:project-summary` | Current phase, budget status, open risks, upcoming decisions and things to watch, read straight from your connected project folder, with a source file for every fact |
+| Weekly priorities | `/pm-toolkit:weekly-priorities` | The top 3 priorities for the week from your latest status report/notes, with why each matters, its source, and what to chase |
+| Risk update | `/pm-toolkit:risk-update` | Line-by-line proposed changes to an existing risk register's status, score and notes — verifies each risk ID against its description and never edits without your confirmation |
+| Stakeholder email | `/pm-toolkit:stakeholder-email` | A concise draft email from this week's priorities and decisions — subject, context, decisions needed with dates, one clear ask; never sends anything |
 
-You can also just describe what you need ("draft a charter for…", "what are the top risks for…") and Claude picks the right skill.
+You can also just describe what you need ("draft a charter for…", "what are the top risks for…", "where are we on this project") and Claude picks the right skill.
 
 **Weekly status report:** that one lives in its own plugin, [pm-status-report](../pm-status-report):
 

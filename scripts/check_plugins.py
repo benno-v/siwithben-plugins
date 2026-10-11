@@ -5,6 +5,11 @@ root = pathlib.Path(__file__).resolve().parent.parent
 errors = []
 m = json.loads((root / ".claude-plugin/marketplace.json").read_text())
 for e in m["plugins"]:
+    if not isinstance(e["source"], str):
+        src = e["source"]
+        if not (src.get("source") == "github" and "/" in src.get("repo", "")) and not (src.get("source") == "url" and src.get("url", "").startswith("https://")):
+            errors.append(f"{e['name']}: external source must be github owner/repo or an https git url")
+        continue  # external plugin, validated in its own repo
     d = root / e["source"]
     pj = d / ".claude-plugin/plugin.json"
     if not pj.exists():

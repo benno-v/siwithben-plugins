@@ -7,7 +7,8 @@ I make practical plugins for project managers and busy professionals, to go with
 | Plugin | What it does |
 |---|---|
 | [pm-status-report](plugins/pm-status-report) | Rough notes → consistent weekly status report with RAG rating |
-| [pm-toolkit](plugins/pm-toolkit) | Project charter, WBS + PERT estimates, risk register, executive translator |
+| [pm-toolkit](plugins/pm-toolkit) | Charter, WBS + PERT, risk register, exec translator, project summary, weekly priorities, risk update, stakeholder email |
+| [ai-pm-project-plan](https://github.com/benno-v/ai-pm-project-plan) | Client-ready Gantt with milestones, tracker and status snapshot as HTML, PowerPoint, Excel and PDF (lives in its own public repo) |
 
 ## Install one plugin
 

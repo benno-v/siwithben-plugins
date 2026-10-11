@@ -14,7 +14,20 @@
     {
       "name": "pm-toolkit",
       "source": "./plugins/pm-toolkit",
-      "description": "Project charter, WBS with PERT estimates, risk register and executive translator skills for project managers."
+      "description": "Project charter, WBS with PERT estimates, risk register, executive translator, project summary, weekly priorities, risk update and stakeholder email skills for project managers."
+    },
+    {
+      "name": "ai-pm-project-plan",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/benno-v/ai-pm-project-plan.git"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/project-plan-generator"
+      ],
+      "version": "1.1.0",
+      "description": "Project Plan Generator: a client-ready Gantt, milestone tracker and status snapshot as Excel, HTML, PowerPoint and PDF, from a project brief or your PM tool. Lives in its own public repo."
     }
   ]
 }
