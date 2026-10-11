@@ -2,6 +2,8 @@
 
 Four everyday project management skills that give you consistent, ready-to-review documents in seconds.
 
+I built these from the prompts I use most as a project and programme manager, and show them in my videos.
+
 *By Benjamin Vermeulen, [@SIwithBen](https://www.youtube.com/@SIwithBen).*
 
 Featured in: [5 ChatGPT Prompts Every Project Manager Needs](https://www.youtube.com/watch?v=480NbXPA5q8) and [How to create a Project Charter](https://www.youtube.com/watch?v=nnqyx-8pIVM)

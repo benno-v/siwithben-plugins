@@ -1,6 +1,6 @@
 # SI with Ben: plugins for Claude Code and Claude Cowork
 
-Practical plugins for project managers and busy professionals, from the YouTube channel [SI with Ben](https://www.youtube.com/@SIwithBen). Every plugin works in **Claude Code** and **Claude Cowork**.
+I make practical plugins for project managers and busy professionals, to go with my YouTube channel [SI with Ben](https://www.youtube.com/@SIwithBen). Every plugin here works in **Claude Code** and **Claude Cowork**.
 
 *By Benjamin Vermeulen, @SIwithBen.*
 
@@ -36,7 +36,7 @@ Team/Enterprise owners can sync this repository as an organisation marketplace (
 
 ## Feedback and changes
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [CHANGELOG.md](CHANGELOG.md). Found a problem or have an idea? [Open an issue](../../issues/new/choose).
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [CHANGELOG.md](CHANGELOG.md). Found a problem or have an idea? [Open an issue](../../issues/new/choose); I read every one.
 
 ## License
 
