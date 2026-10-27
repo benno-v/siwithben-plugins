@@ -49,6 +49,13 @@ All notable changes, per plugin. Versions follow [semantic versioning](https://s
 - First release: inbox-cleanup, follow-up-tracker and red-team-review skills (SKILL.md, approval-first, paste-ready routine prompts with suggested schedules), two-jobs-at-once example, sample data, dry-run evidence and downloadable zip.
 - CI: scripts/check_kits.py now validates skill frontmatter (name matches folder, description says when to use it) and that each skill states an approval boundary.
 
+## kits/grok-bot-personal-assistant
+
+### 1.0.0 (2026-10-27)
+- First release: the setup from the video "How I Use GrokBot as My Personal Assistant" as generic prompts. Primary-bot setup prompt that interviews you first, one prompt for each of six sub-bots (fitness coach, food bot, money bot, inbox bot, research bot, personal shopper), the 12 jobs as ready-to-paste prompts, eleven routine templates with plain-English schedules and cron-style notation, an approval-rules template with a paste-ready rules block, and a connector setup checklist (Gmail, Google Calendar, Google Drive, Notion, budgeting app, Grok's own computer) with a test for each step.
+- Holds no private details. Money bot never connects to a bank account or moves money; shopper never checks out without a yes to the exact item and price.
+- Tests: tests/test_kit.py (structure, 12 jobs, routine format, approval wording, no private data, SI branding, link and timestamp checks) runs in CI; dry-run evidence in tests/evidence.
+
 ## kits/notion-action-list
 
 ### 1.0.0 (2026-10-11)

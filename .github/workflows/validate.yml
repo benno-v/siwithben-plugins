@@ -27,6 +27,8 @@ jobs:
         run: |
           python3 -m pip install openpyxl python-pptx
           python3 -m unittest discover -s plugins/pm-toolkit/skills/gantt-chart/tests -v
+      - name: grok-bot-personal-assistant kit tests
+        run: python3 -m unittest discover -s kits/grok-bot-personal-assistant/tests -v
       - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
       - name: claude plugin validate (marketplace + each plugin)
